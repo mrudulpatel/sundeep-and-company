@@ -24,9 +24,13 @@ const Hero = () => {
           <source src="/hero-bg.mp4" type="video/mp4" />
         </video>
       </div>
-
+      {/* Background Image for mobile */}
+      <div
+        className="md:hidden h-screen absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('/bg.jpeg')" }}
+      ></div>
       {/* Background Gradient (visible on mobile) */}
-      <div className="md:hidden w-full h-full bg-gradient-to-b from-[#0b3c9e] to-[#032E61] absolute top-0 left-0" />
+
       <div className="absolute h-screen inset-0 bg-black/65" />
 
       {/* Content */}
