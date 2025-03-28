@@ -68,7 +68,11 @@ const Footer = () => {
 
         {/* Copyright Section */}
         <div className="mt-8 text-center border-t border-gray-700 pt-4 text-sm">
-          <p>&copy; {new Date().getFullYear()+1} Sundeep & Company. All rights reserved</p>
+          <p>Version 1.0.0</p>
+          <p>
+            &copy; {new Date().getFullYear() + 1} Sundeep & Company. All rights
+            reserved
+          </p>
         </div>
       </div>
     </footer>
