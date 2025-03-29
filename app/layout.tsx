@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 import { Space_Grotesk } from "next/font/google";
-import "./globals.css";
 import Footer from "@/components/Footer";
+import "./globals.css";
 
 const space_grotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -27,6 +29,8 @@ export default function RootLayout({
       >
         {/* <Navbar /> */}
         <main>{children}</main>
+        <SpeedInsights />
+        <Analytics />
         <Footer />
       </body>
     </html>
