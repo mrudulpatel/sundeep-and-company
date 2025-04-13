@@ -3,7 +3,7 @@ import AboutIcon from "./AboutIcon";
 
 const About = () => {
   return (
-    <div className="flex relative items-center justify-between min-h-[550px]">
+    <div id="about" className="flex relative items-center justify-between min-h-[550px]">
       <div className="hidden md:flex min-h-[350px] size-full  relative max-w-[450px] max-h-[600px]">
         <Image
           objectFit="cover"
@@ -28,7 +28,7 @@ const About = () => {
           className="text-[16px] font-normal leading-[26px] text-center"
           style={{ padding: "0px 0px 30px 0px" }}
         >
-          Sundeep & Company is a leading dealer and distributor of construction
+          We are dealers and distributors of construction
           chemicals and building materials in Pune, Maharashtra.
         </p>
       </div>

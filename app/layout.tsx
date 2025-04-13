@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         style={{ fontFamily: "Space Grotesk" }}
-        className={`${space_grotesk.variable} antialiased`}
+        className={`${space_grotesk.variable} antialiased scroll-smooth`}
       >
         {/* <Navbar /> */}
         <main>{children}</main>

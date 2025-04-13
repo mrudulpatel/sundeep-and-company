@@ -39,20 +39,16 @@ const Footer = () => {
           <div>
             <h4 className="font-bold">Company</h4>
             <ul className="mt-2 space-y-1">
-              <li>About Us</li>
-              <li>Contact</li>
+              <li>
+                <Link href={"#about"}>About Us</Link>
+              </li>
+              <li>
+                <Link href={"#contact-us"}>Contact</Link>
+              </li>
             </ul>
           </div>
           <div>
-            <h4 className="font-bold">Products</h4>
-            <ul className="mt-2 space-y-1">
-              <li>Coatings</li>
-              <li>Admixtures</li>
-              <li>Waterproofing</li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-bold">Contact</h4>
+            <h4 className="font-bold">Contact Us</h4>
             <ul className="mt-2 space-y-1">
               <li>
                 <Link href="mailto:ncpatel25@gmail.com">
@@ -68,7 +64,7 @@ const Footer = () => {
 
         {/* Copyright Section */}
         <div className="mt-8 text-center border-t border-gray-700 pt-4 text-sm">
-          <p>Version 1.0.0</p>
+          <p>Version 1.0.1</p>
           <p>
             &copy; {new Date().getFullYear() + 1} Sundeep & Company. All rights
             reserved
